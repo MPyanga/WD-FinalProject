@@ -5,29 +5,23 @@
 <br />
 <div align="center">
   <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Website Portfolio</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  A website portfolio showcasing different styles using Html, Css and Js
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+
+![](https://visit-counter.vercel.app/counter.png?page=MPyanga/WD-FinalProject)
 
 ---
 
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -57,20 +51,16 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+This project is a website portfolio aimed at demonstrating and presenting the creator's web design and development skills. It is designed to be a visually engaging and functional platform that provides potential employers, clients, and collaborators with a clear understanding of the creator's abilities and experiences. The portfolio includes multiple pages, each serving a specific purpose and contributing to the overall narrative of the creator's professional journey.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Portfolio
+- Projects
+- Hover
+- Animations
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -90,7 +80,7 @@ Guiding Question:
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-FinalProject
 └─ assets
 |   └─ css
 |   |   └─ style.css
@@ -99,15 +89,42 @@ WD-ProjectName
 |   └─ js
 |       └─ script.js
 └─ pages
-|  └─ pageName
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
-|     └─ index.html
+|  └─ About-page
+|  |  └─ assets
+|  |   |  └─ css
+|  |   |  |  └─ style.css
+|  |   |  └─ img
+|  |   |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|  |   |  └─ js
+|  |   |     └─ script.js
+|  |   └─ index.html
+└─ └─ Contact-page
+|  |  └─ assets
+|  |   |  └─ css
+|  |   |  |  └─ style.css
+|  |   |  └─ img
+|  |   |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|  |   |  └─ js
+|  |   |     └─ script.js
+|  |   └─ index.html
+|  └─ Project-page
+|  |  └─ assets
+|  |   |  └─ css
+|  |   |  |  └─ style.css
+|  |   |  └─ img
+|  |   |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|  |   |  └─ js
+|  |   |     └─ script.js
+|  |   └─ index.html
+|  └─ Skills-page
+|      └─ assets
+|      |  └─ css
+|      |  |  └─ style.css
+|      |  └─ img
+|      |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|      |  └─ js
+|      |     └─ script.js
+|      └─ index.html
 └─ index.html
 └─ readme.md
 ```
@@ -117,4 +134,12 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| W3schools | To learn different style of codes. | https://www.w3schools.com/css/default.asp |
+| Google Fonts | For font styles. | https://fonts.google.com/ |
+| Fontawesome | To get fonts that serves as symbols | https://fontawesome.com |
+| Aos Library | For scroll animations | https://michalsnik.github.io/aos/ |
+| Bootstrap | For other functionalities | https://getbootstrap.com/ |
+
+
+
+

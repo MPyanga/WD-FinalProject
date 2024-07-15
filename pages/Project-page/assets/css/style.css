@@ -15,10 +15,12 @@
     &:hover{
         height: 12vh;
         box-shadow: 1px 1px 10px rgb(9, 235, 167);
-        ;
-
+        
         & > .button{
-
+            & > a:nth-child(3) > button > i {
+                border: none;
+            }   
+            
             & > h1{
                 display: flex;
                 position: relative;
@@ -41,17 +43,28 @@
                 margin-left: 3px;
                 width: 80%;
 
+                & > a:nth-child(3) > button > i {
+     
+                        border-bottom: 2px solid rgb(9, 235, 167);
+                        height: 2.2rem;
+                        width: 2.5rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
                 & > a {
                     text-decoration: none;
 
                     & > button{
                         display: flex;
                         border: none;
-                        color: black;
+                        color: white;
                         font-family: "Playwrite DE VA", cursive;
                         font-size: 12px;
                         font-weight: 600;
                         width: 7rem;
+                        height: 2rem;
                         align-items: center;
                         justify-content: center;
                         gap: 10px;
@@ -65,15 +78,13 @@
                         }
 
                         &:hover{
-                            transform: scale(1.1);
-                            background-color: rgba(128, 128, 128, 0.418);
-                            box-shadow: 1px 1px 10px rgb(133, 131, 131), -1px -1px 10px rgb(133, 131, 131);
-
+                            border-bottom: 3px solid rgb(9, 235, 167);
                         }
                     }
             }
     }
 }
+
 
     ::-webkit-scrollbar {
         width: 1.1rem; /* Width of the scrollbar */
@@ -95,22 +106,37 @@
 
 body{
     background: linear-gradient(0deg, rgba(31,30,29,1) 0%,rgba(25,100,101,1) 50%, rgba(31,30,29,1) 100%)!important;
-
 }
 
 .top{
     display: flex;
-    height: 10vh;
+    height: 15vh;
     width: 100%;
     justify-content: center;
     align-items: center;
-    margin-top: 15vh;
+    margin-top: 20vh;
+    flex-direction: column;
+    gap: 10px;
 
     & > h1{
-        color: white;
+        color: rgb(9, 235, 167);
         font-weight: 800;
     }
-    
+
+    & > h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:5px;
+        font-size: 1rem;
+        color: whitesmoke;
+        flex-direction: column;
+
+        & > i{
+            font-size: 2rem;
+        }
+    }
+
 }
 
 .section1{
@@ -119,6 +145,7 @@ body{
     width: 100%;
     align-items: center;
     justify-content: center;
+    margin-top: 4rem;
 
     & > .holder{
         display: flex;
@@ -156,6 +183,7 @@ body{
                 padding: 10px;
                 color: white;
             }
+
             & > a{
                 text-decoration: none;
 
@@ -175,7 +203,13 @@ body{
                 border: 1px solid white;
                 border-radius: 10px;
                 padding-left: 15px;
-                font-weight: 700;
+                font-weight: 600;
+                transition: 1s ease;
+                color: white;
+            
+                &:hover{
+                    background-color: rgb(9, 235, 167);
+                }
             }
                 
             & > .fa-github{
@@ -214,7 +248,13 @@ body{
             border: 1px solid wheat;
             border-radius: 10px;
             padding-left: 20px;
-            font-weight: 700;
+            font-weight: 600;
+            transition: 1s ease;
+            color: white;
+
+                &:hover{
+                    background-color: rgb(9, 235, 167);
+                }
         }
 
         & > .fa-square-up-right{
@@ -234,11 +274,6 @@ body{
     }
 }
 }
-
-/* 
-.holder *, .holder{
-    outline: 1px solid red;
-} */
 
 .section2{
     display: flex;
@@ -284,6 +319,7 @@ body{
                 padding: 10px;
                 color: white;
             }
+
             & > a {
                 text-decoration: none;
 
@@ -303,7 +339,13 @@ body{
                 border: 1px solid white;
                 border-radius: 10px;
                 padding-left: 15px;
-                font-weight: 700;
+                font-weight: 600;
+                transition: 1s ease;
+                color: white;
+
+                &:hover{
+                    background-color: rgb(9, 235, 167);
+                }
             }
                 
             & > .fa-github{
@@ -333,8 +375,6 @@ body{
             height: 10vh;
             justify-content: right;
             
-     
-
         & > button{
             display: flex;
             height: 3rem;
@@ -345,8 +385,14 @@ body{
             border: 1px solid wheat;
             border-radius: 10px;
             padding-left: 20px;
-            font-weight: 700;
-        }
+            font-weight: 600;
+            transition: 1s ease;
+            color: white;
+
+                &:hover{
+                    background-color: rgb(9, 235, 167);
+                }
+            }
 
         & > .fa-square-up-right{
             display: flex;
@@ -361,8 +407,9 @@ body{
         }
 
         }
+     }
         }
-}}
+    }
 }
 
 .section3{
@@ -395,6 +442,7 @@ body{
                 border-radius: 20px;
             }
         }
+
         & > .right{
             display: flex;
             align-items: center;
@@ -428,7 +476,13 @@ body{
                 border: 1px solid white;
                 border-radius: 10px;
                 padding-left: 15px;
-                font-weight: 700;
+                font-weight: 600;
+                transition: 1s ease;
+                color: white;
+
+                &:hover{
+                    background-color: rgb(9, 235, 167);
+                }
             }
                 
             & > .fa-github{
@@ -467,7 +521,13 @@ body{
             border: 1px solid wheat;
             border-radius: 10px;
             padding-left: 20px;
-            font-weight: 700;
+            font-weight: 600;
+            transition: 1s ease;
+            color: white;
+
+                &:hover{
+                    background-color: rgb(9, 235, 167);
+                }
         }
 
         & > .fa-square-up-right{
@@ -551,7 +611,13 @@ body{
                 border: 1px solid white;
                 border-radius: 10px;
                 padding-left: 15px;
-                font-weight: 700;
+                font-weight: 600;
+                transition: 1s ease;
+                color: white;
+
+                &:hover{
+                    background-color: rgb(9, 235, 167);
+                }
             }
                 
             & > .fa-github{
@@ -590,7 +656,12 @@ body{
             border: 1px solid wheat;
             border-radius: 10px;
             padding-left: 20px;
-            font-weight: 700;
+            font-weight: 600;
+            transition: 1s ease;
+            color: white;
+                &:hover{
+                    background-color: rgb(9, 235, 167);
+                }
         }
 
         & > .fa-square-up-right{
@@ -673,7 +744,13 @@ body{
                 border: 1px solid white;
                 border-radius: 10px;
                 padding-left: 15px;
-                font-weight: 700;
+                font-weight: 600;
+                transition: 1s ease;
+                color: white;
+
+                &:hover{
+                    background-color: rgb(9, 235, 167);
+                }
             }
                 
             & > .fa-github{
@@ -712,7 +789,12 @@ body{
             border: 1px solid wheat;
             border-radius: 10px;
             padding-left: 20px;
-            font-weight: 700;
+            font-weight: 600;
+            transition: 1s ease;
+            color: white;
+                &:hover{
+                    background-color: rgb(9, 235, 167);
+                }
         }
 
         & > .fa-square-up-right{
@@ -795,7 +877,13 @@ body{
                 border: 1px solid white;
                 border-radius: 10px;
                 padding-left: 15px;
-                font-weight: 700;
+                transition: 1s ease;
+                font-weight: 600;
+                color: white;
+
+                &:hover{
+                    background-color: rgb(9, 235, 167);
+                }
             }
                 
             & > .fa-github{
@@ -834,7 +922,13 @@ body{
             border: 1px solid wheat;
             border-radius: 10px;
             padding-left: 20px;
-            font-weight: 700;
+            transition: 1s ease;
+            font-weight: 600;
+            color: white;
+
+                &:hover{
+                    background-color: rgb(9, 235, 167);
+                }
         }
 
         & > .fa-square-up-right{
@@ -848,7 +942,6 @@ body{
             transform: translateY(-10px) translateX(6px);
             color: white;
         }
-
     }
     }
     }

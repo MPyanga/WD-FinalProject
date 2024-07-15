@@ -15,10 +15,12 @@
     &:hover{
         height: 12vh;
         box-shadow: 1px 1px 10px rgb(9, 235, 167);
-        ;
 
         & > .button{
-
+            & > a:nth-child(4) > button > i {
+                border: none;
+            }   
+            
             & > h1{
                 display: flex;
                 position: relative;
@@ -41,17 +43,28 @@
                 margin-left: 3px;
                 width: 80%;
 
+                & > a:nth-child(4) > button > i {
+     
+                        border-bottom: 2px solid rgb(9, 235, 167);
+                        height: 2.2rem;
+                        width: 2.5rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
                 & > a {
                     text-decoration: none;
 
                     & > button{
                         display: flex;
                         border: none;
-                        color: black;
+                        color: white;
                         font-family: "Playwrite DE VA", cursive;
                         font-size: 12px;
                         font-weight: 600;
                         width: 7rem;
+                        height: 2rem;
                         align-items: center;
                         justify-content: center;
                         gap: 10px;
@@ -65,10 +78,7 @@
                         }
 
                         &:hover{
-                            transform: scale(1.1);
-                            background-color: rgba(128, 128, 128, 0.418);
-                            box-shadow: 1px 1px 10px rgb(133, 131, 131), -1px -1px 10px rgb(133, 131, 131);
-
+                            border-bottom: 3px solid rgb(9, 235, 167);
                         }
                     }
             }
@@ -114,6 +124,7 @@ body{
         color: rgb(9, 235, 167);
     }
 }
+
 .section1{
     display: flex;
     justify-content: center;
@@ -144,7 +155,7 @@ body{
             background-color: transparent;
             color: rgba(245, 245, 245, 0.753);
             transition: 1.3s ease;
-            
+
             &:hover{
                 background-color: blueviolet;
             }
@@ -155,6 +166,7 @@ body{
         }
     }
     }
+
     & > .right{
         display: flex;
         align-items: center;
@@ -192,7 +204,6 @@ body{
                 display: flex;
                 height: 2.2rem;
                 width: 6rem;
-                /* transform: translateX(-73px); */
                 justify-content: center;
                 align-items: center;
                 border: none;
@@ -218,5 +229,4 @@ body{
             }
         }
     }
-}
 }

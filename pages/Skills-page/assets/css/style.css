@@ -17,7 +17,10 @@
         box-shadow: 1px 1px 10px rgb(9, 235, 167);
         
         & > .button{
-
+            & > a:nth-child(5) > button > i {
+                border: none;
+            }   
+            
             & > h1{
                 display: flex;
                 position: relative;
@@ -40,17 +43,28 @@
                 margin-left: 3px;
                 width: 80%;
 
+                & > a:nth-child(5) > button > i {
+     
+                        border-bottom: 2px solid rgb(9, 235, 167);
+                        height: 2.2rem;
+                        width: 2.5rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
                 & > a {
                     text-decoration: none;
 
                     & > button{
                         display: flex;
                         border: none;
-                        color: black;
+                        color: white;
                         font-family: "Playwrite DE VA", cursive;
                         font-size: 12px;
                         font-weight: 600;
                         width: 7rem;
+                        height: 2rem;
                         align-items: center;
                         justify-content: center;
                         gap: 10px;
@@ -64,15 +78,13 @@
                         }
 
                         &:hover{
-                            transform: scale(1.1);
-                            background-color: rgba(128, 128, 128, 0.418);
-                            box-shadow: 1px 1px 10px rgb(133, 131, 131), -1px -1px 10px rgb(133, 131, 131);
-
+                            border-bottom: 3px solid rgb(9, 235, 167);
                         }
                     }
             }
     }
 }
+
 
     ::-webkit-scrollbar {
         width: 1.1rem; /* Width of the scrollbar */
@@ -97,14 +109,6 @@ body{
 
 }
 
-/* .top *, .top{
-    outline: 1px solid white;
-}
-
-.section1 *, .section1{
-    outline: 1px solid white;
-} */
-
 .top{
     display: flex;
     height: 10vh;
@@ -126,6 +130,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 10px;
+
         & > .left{
             display: flex;
             width: 35%;
@@ -145,10 +150,10 @@ body{
             & > img{
                 display: flex;
                 height: 4rem;
-                animation: right 20s infinite linear;
-            }
-        
+                animation: right 15s infinite linear;
+            }   
         }
+
         & > .bottom{
             display: flex;
             flex-direction: row;
@@ -158,9 +163,8 @@ body{
             & > img{
                 display: flex;
                 height: 4rem;
-                animation: left 20s infinite linear;
+                animation: left 15s infinite linear;
             }
-        
         }
     }
         & > .right{
@@ -196,23 +200,21 @@ body{
                 width: 50%;
             }
 
-
             & > .holder{
                 display: flex;
                 flex-direction: column;
                 gap: 5px;
+
                 & > b{
                     justify-content: end;
                     font-size: 11px;
                     color: palegreen;
-
                 }
 
             & > .progress{
                 width: 30rem;
                 background-color: black;
                 height: 12px;
-
 
                 & > .progress-bar{
                     background-color: rgb(87, 0, 64) ;
@@ -221,7 +223,7 @@ body{
             }
         }
 
-        }
+    }
 }
 
 
@@ -230,16 +232,16 @@ body{
       transform: translateX(-32rem);
     }
     to{
-      transform: translateX(30rem);
+      transform: translateX(26rem);
     }  
   }
   
   @keyframes left {
     from{
-      transform: translateX(27rem);
+      transform: translateX(22rem);
     }
     to{
-      transform: translateX(-32rem);
+      transform: translateX(-28rem);
     }  
   }
   

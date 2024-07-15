@@ -112,12 +112,10 @@ body{
     align-items: center;
     justify-content: flex-start;
     color: rgb(9, 235, 167);
-    padding-left: 40px;
+    padding-left: 15rem;
 
     & > h1{
-        font-weight: 700;
-        border-left: 6px solid rgb(9, 235, 167);
-        padding-left: 10px;
+        font-weight: 900;
     }
 }
 .section1{

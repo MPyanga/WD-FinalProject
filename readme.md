@@ -39,6 +39,12 @@
     <li>
       <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
     </li>
+      <li>
+      <a href="#Project-links">Project links</a>
+    </li>
+      <li>
+      <a href="#Wakatime">Wakatime</a>
+    </li>
     <li>
       <a href="#resources">Resources</a>
     </li>
@@ -80,7 +86,7 @@ This project is a website portfolio aimed at demonstrating and presenting the cr
 7. File Structure to follow below.
 
 ```
-WD-FinalProject
+WD-Finals
 └─ assets
 |   └─ css
 |   |   └─ style.css
@@ -128,6 +134,22 @@ WD-FinalProject
 └─ index.html
 └─ readme.md
 ```
+## Project links
+- https://github.com/MPyanga/WD-Hands-on-2
+- https://mpyanga.github.io/WD-Hands-on-2/
+- https://github.com/MPyanga/WD-Seatwork4
+- https://mpyanga.github.io/WD-Seatwork4/
+- https://github.com/MPyanga/WD-Seatwork3
+- https://mpyanga.github.io/WD-Seatwork3/
+- https://github.com/MPyanga/WD-Seatwork2
+- https://mpyanga.github.io/WD-Seatwork2/
+- https://github.com/MPyanga/WD-Midterm
+- https://mpyanga.github.io/WD-Midterm/
+- https://github.com/MPyanga/WD-act1
+- https://mpyanga.github.io/WD-act1/
+
+## Wakatime
+- https://wakatime.com/dashboard
 
 ## Resources
 
@@ -139,7 +161,4 @@ WD-FinalProject
 | Fontawesome | To get fonts that serves as symbols | https://fontawesome.com |
 | Aos Library | For scroll animations | https://michalsnik.github.io/aos/ |
 | Bootstrap | For other functionalities | https://getbootstrap.com/ |
-
-
-
 

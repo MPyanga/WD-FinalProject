@@ -58,7 +58,7 @@ This project is a website portfolio aimed at demonstrating and presenting the cr
 <!-- The following are just sample -->
 - MultiPage Website
 - Portfolio
-- Projects
+- Featured Projects
 - Hover
 - Animations
 

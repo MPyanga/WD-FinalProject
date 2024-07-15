@@ -607,9 +607,10 @@ body{
                 width: 25rem;
                 border-bottom: 10px solid blueviolet;
                 font-size: 3rem;
-                background: -webkit-linear-gradient(blueviolet, pink);
+                /* background: -webkit-linear-gradient(blueviolet, pink);
                 -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
+                -webkit-text-fill-color: transparent; */
+                color: rgb(9, 235, 167);
             }
 
             & > p{
@@ -620,7 +621,7 @@ body{
                 & > b{
                     letter-spacing: 1px;
                     font-size: 1.5rem;
-                    color: yellowgreen;
+                    color: rgb(9, 235, 167);
                 }
             }
             
@@ -639,7 +640,7 @@ body{
                 border-radius: 20px;
                 font-weight: 700;
                 font-size: 1rem;
-                color: yellowgreen;
+                color: rgb(9, 235, 167);
             }
         }
         }
@@ -694,7 +695,7 @@ body{
         height: 20vh;
         align-items: center;
         justify-content: center;    
-        color: rgb(231, 5, 220);
+        color: rgb(9, 235, 167);
 
         & > h1{
             font-weight: 700;

@@ -1,0 +1,856 @@
+.header-bottom {
+    display: inline-flex;  
+    position: fixed;
+    justify-content: center;
+    height: 8vh;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(245, 245, 245, 0.075);
+    color: black;
+    box-shadow: 1px 1px 10px whitesmoke;
+    border-radius:  0px 0px 10px 10px;
+    transition-duration: 0.1s;
+
+    &:hover{
+        height: 12vh;
+        box-shadow: 1px 1px 10px rgb(9, 235, 167);
+        ;
+
+        & > .button{
+
+            & > h1{
+                display: flex;
+                position: relative;
+                font-size: 20px;
+                border-right: 2px solid black;
+                width: 7rem;
+            }
+
+           & > a > button{
+            visibility: visible;
+           }
+        }
+    }
+            & > .button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 2rem;
+                flex-direction: row;
+                margin-left: 3px;
+                width: 80%;
+
+                & > a {
+                    text-decoration: none;
+
+                    & > button{
+                        display: flex;
+                        border: none;
+                        color: black;
+                        font-family: "Playwrite DE VA", cursive;
+                        font-size: 12px;
+                        font-weight: 600;
+                        width: 7rem;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 10px;
+                        visibility: hidden;
+                        background-color: transparent;
+
+                        & > i{
+                            color: rgb(9, 235, 167);
+                            font-size: 15px;
+                            visibility: visible;
+                        }
+
+                        &:hover{
+                            transform: scale(1.1);
+                            background-color: rgba(128, 128, 128, 0.418);
+                            box-shadow: 1px 1px 10px rgb(133, 131, 131), -1px -1px 10px rgb(133, 131, 131);
+
+                        }
+                    }
+            }
+    }
+}
+
+    ::-webkit-scrollbar {
+        width: 1.1rem; /* Width of the scrollbar */
+        scroll-behavior: smooth;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: linear-gradient(to bottom, rgb(9, 235, 167)0%, rgb(107, 253, 253) 50%,rgb(2, 253, 253)100%);
+        border-radius: 10px;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(to top, rgb(5, 231, 235) 0%, rgba(31,29,30,1) 100%);
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: linear-gradient(to top, rgb(103, 103, 104) 0%, rgba(31,29,30,1) 100%);
+    }
+
+body{
+    background: linear-gradient(0deg, rgba(31,30,29,1) 0%,rgba(25,100,101,1) 50%, rgba(31,30,29,1) 100%)!important;
+
+}
+
+.top{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+
+    & > h1{
+        color: white;
+        font-weight: 800;
+    }
+    
+}
+
+.section1{
+    display: flex;
+    height: 65vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    & > .holder{
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        height: 55vh;
+        border: 2px solid white;
+        padding: 15px;
+        border-radius: 20px;
+        align-items: center;
+
+        & > .left{
+            display: flex;
+            width: 60%;
+            height: 70vh;
+            justify-content: center;
+            align-items: center;
+
+            & > img{
+                height: 50vh;
+                border-radius: 20px;
+            }
+        }
+
+        & > .right{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 40%;
+            gap: 1.5rem;
+
+            & > p{
+                text-align: center;
+                padding: 10px;
+                color: white;
+            }
+            & > a{
+                text-decoration: none;
+
+            & > .project1{
+                display: flex;
+                flex-direction: row;
+                height: 10vh;
+                justify-content: right;
+                
+            & > button{
+                display: flex;
+                height: 3rem;
+                width: 13.2rem;
+                align-items: center;
+                gap: 2px;
+                background-color: transparent;
+                border: 1px solid white;
+                border-radius: 10px;
+                padding-left: 15px;
+                font-weight: 700;
+            }
+                
+            & > .fa-github{
+                display: flex;
+                border-radius: 50%;
+                border: 1px solid white;
+                height: 2.2rem; 
+                width: 2.2rem;  
+                align-items: center;  
+                justify-content: center;   
+                position: absolute; 
+                font-size: 2.2rem;   
+                background-color: rgba(245, 245, 245, 0.966);
+                transform: translateY(-10px) translateX(6px);
+                color: black;
+            }
+        }
+    }
+
+        & > a {
+            text-decoration: none;
+        & > .project2{
+            display: flex;
+            flex-direction: row;
+            height: 10vh;
+            justify-content: right;
+            
+
+        & > button{
+            display: flex;
+            height: 3rem;
+            width: 10rem;
+            align-items: center;
+            gap: 2px;
+            background-color: transparent;
+            border: 1px solid wheat;
+            border-radius: 10px;
+            padding-left: 20px;
+            font-weight: 700;
+        }
+
+        & > .fa-square-up-right{
+            display: flex;
+            height: 2.5rem; 
+            width: 2.5rem;  
+            align-items: center;  
+            justify-content: center;   
+            position: absolute; 
+            font-size: 2.2rem;   
+            transform: translateY(-10px) translateX(6px);
+            color: white;
+        }
+
+    }
+    }
+    }
+}
+}
+
+/* 
+.holder *, .holder{
+    outline: 1px solid red;
+} */
+
+.section2{
+    display: flex;
+    height: 65vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    & > .holder{
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        height: 55vh;
+        border: 2px solid white;
+        padding: 15px;
+        border-radius: 20px;
+        align-items: center;
+
+        & > .left{
+            display: flex;
+            width: 70%;
+            height: 70vh;
+            justify-content: center;
+            align-items: center;
+
+            & > img{
+                height: 50vh;
+                width: 100%;
+                border-radius: 20px;
+            }
+        }
+
+        & > .right{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 40%;
+            gap: 1.5rem;
+            
+            & > p{
+                text-align: center;
+                padding: 10px;
+                color: white;
+            }
+            & > a {
+                text-decoration: none;
+
+            & > .project1{
+                display: flex;
+                flex-direction: row;
+                height: 10vh;
+                justify-content: right;
+                
+                & > button{
+                display: flex;
+                height: 3rem;
+                width: 13.2rem;
+                align-items: center;
+                gap: 2px;
+                background-color: transparent;
+                border: 1px solid white;
+                border-radius: 10px;
+                padding-left: 15px;
+                font-weight: 700;
+            }
+                
+            & > .fa-github{
+                display: flex;
+                border-radius: 50%;
+                border: 1px solid white;
+                height: 2.2rem; 
+                width: 2.2rem;  
+                align-items: center;  
+                justify-content: center;   
+                position: absolute; 
+                font-size: 2.2rem;   
+                background-color: rgba(245, 245, 245, 0.966);
+                transform: translateY(-10px) translateX(6px);  
+                color: black;
+            }
+    
+        }
+    }
+
+    & > a{
+        text-decoration: none;
+
+        & > .project2{
+            display: flex;
+            flex-direction: row;
+            height: 10vh;
+            justify-content: right;
+            
+     
+
+        & > button{
+            display: flex;
+            height: 3rem;
+            width: 10rem;
+            align-items: center;
+            gap: 2px;
+            background-color: transparent;
+            border: 1px solid wheat;
+            border-radius: 10px;
+            padding-left: 20px;
+            font-weight: 700;
+        }
+
+        & > .fa-square-up-right{
+            display: flex;
+            height: 2.5rem; 
+            width: 2.5rem;  
+            align-items: center;  
+            justify-content: center;   
+            position: absolute; 
+            font-size: 2.2rem;   
+            transform: translateY(-10px) translateX(6px);
+            color: white;
+        }
+
+        }
+        }
+}}
+}
+
+.section3{
+    display: flex;
+    height: 65vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    & > .holder{
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        height: 55vh;
+        border: 2px solid white;
+        padding: 15px;
+        border-radius: 20px;
+        align-items: center;
+
+        & > .left{
+            display: flex;
+            width: 70%;
+            height: 70vh;
+            justify-content: center;
+            align-items: center;
+
+            & > img{
+                height: 50vh;
+                width: 100%;
+                border-radius: 20px;
+            }
+        }
+        & > .right{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 40%;
+            gap: 1.5rem;
+
+            & > p{
+                text-align: center;
+                padding: 10px;
+                color: white;
+            }
+
+            & > a{
+                text-decoration: none;
+
+            & > .project1{
+                display: flex;
+                flex-direction: row;
+                height: 10vh;
+                justify-content: right;
+                
+            & > button{
+                display: flex;
+                height: 3rem;
+                width: 13.2rem;
+                align-items: center;
+                gap: 2px;
+                background-color: transparent;
+                border: 1px solid white;
+                border-radius: 10px;
+                padding-left: 15px;
+                font-weight: 700;
+            }
+                
+            & > .fa-github{
+                display: flex;
+                border-radius: 50%;
+                border: 1px solid white;
+                height: 2.2rem; 
+                width: 2.2rem;  
+                align-items: center;  
+                justify-content: center;   
+                position: absolute; 
+                font-size: 2.2rem;   
+                background-color: rgba(245, 245, 245, 0.966);
+                transform: translateY(-10px) translateX(6px);
+                color: black;
+            }
+        }
+    }
+
+        & > a {
+            text-decoration: none;
+        & > .project2{
+            display: flex;
+            flex-direction: row;
+            height: 10vh;
+            justify-content: right;
+            
+
+        & > button{
+            display: flex;
+            height: 3rem;
+            width: 10rem;
+            align-items: center;
+            gap: 2px;
+            background-color: transparent;
+            border: 1px solid wheat;
+            border-radius: 10px;
+            padding-left: 20px;
+            font-weight: 700;
+        }
+
+        & > .fa-square-up-right{
+            display: flex;
+            height: 2.5rem; 
+            width: 2.5rem;  
+            align-items: center;  
+            justify-content: center;   
+            position: absolute; 
+            font-size: 2.2rem;   
+            transform: translateY(-10px) translateX(6px);
+            color: white;
+        }
+
+    }
+    }
+    }
+}
+}
+
+.section4{
+    display: flex;
+    height: 65vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    & > .holder{
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        height: 55vh;
+        border: 2px solid white;
+        padding: 15px;
+        border-radius: 20px;
+        align-items: center;
+
+        & > .left{
+            display: flex;
+            width: 70%;
+            height: 70vh;
+            justify-content: center;
+            align-items: center;
+
+            & > img{
+                height: 50vh;
+                width: 100%;
+                border-radius: 20px;
+            }
+        }
+        & > .right{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 40%;
+            gap: 1.5rem;
+
+            & > p{
+                text-align: center;
+                padding: 10px;
+                color: white;
+            }
+            
+            & > a{
+                text-decoration: none;
+
+            & > .project1{
+                display: flex;
+                flex-direction: row;
+                height: 10vh;
+                justify-content: right;
+                
+            & > button{
+                display: flex;
+                height: 3rem;
+                width: 13.2rem;
+                align-items: center;
+                gap: 2px;
+                background-color: transparent;
+                border: 1px solid white;
+                border-radius: 10px;
+                padding-left: 15px;
+                font-weight: 700;
+            }
+                
+            & > .fa-github{
+                display: flex;
+                border-radius: 50%;
+                border: 1px solid white;
+                height: 2.2rem; 
+                width: 2.2rem;  
+                align-items: center;  
+                justify-content: center;   
+                position: absolute; 
+                font-size: 2.2rem;   
+                background-color: rgba(245, 245, 245, 0.966);
+                transform: translateY(-10px) translateX(6px);
+                color: black;
+            }
+        }
+    }
+
+        & > a {
+            text-decoration: none;
+        & > .project2{
+            display: flex;
+            flex-direction: row;
+            height: 10vh;
+            justify-content: right;
+            
+
+        & > button{
+            display: flex;
+            height: 3rem;
+            width: 10rem;
+            align-items: center;
+            gap: 2px;
+            background-color: transparent;
+            border: 1px solid wheat;
+            border-radius: 10px;
+            padding-left: 20px;
+            font-weight: 700;
+        }
+
+        & > .fa-square-up-right{
+            display: flex;
+            height: 2.5rem; 
+            width: 2.5rem;  
+            align-items: center;  
+            justify-content: center;   
+            position: absolute; 
+            font-size: 2.2rem;   
+            transform: translateY(-10px) translateX(6px);
+            color: white;
+        }
+
+    }
+    }
+    }
+}
+}
+
+.section5{
+    display: flex;
+    height: 65vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    & > .holder{
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        height: 55vh;
+        border: 2px solid white;
+        padding: 15px;
+        border-radius: 20px;
+        align-items: center;
+
+        & > .left{
+            display: flex;
+            width: 70%;
+            height: 70vh;
+            justify-content: center;
+            align-items: center;
+
+            & > img{
+                height: 45vh;
+                width: 100%;
+                border-radius: 20px;
+            }
+        }
+        & > .right{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 40%;
+            gap: 1.5rem;
+
+            & > p{
+                text-align: center;
+                padding: 10px;
+                color: white;
+            }
+            & > a{
+                text-decoration: none;
+
+            & > .project1{
+                display: flex;
+                flex-direction: row;
+                height: 10vh;
+                justify-content: right;
+                
+            & > button{
+                display: flex;
+                height: 3rem;
+                width: 13.2rem;
+                align-items: center;
+                gap: 2px;
+                background-color: transparent;
+                border: 1px solid white;
+                border-radius: 10px;
+                padding-left: 15px;
+                font-weight: 700;
+            }
+                
+            & > .fa-github{
+                display: flex;
+                border-radius: 50%;
+                border: 1px solid white;
+                height: 2.2rem; 
+                width: 2.2rem;  
+                align-items: center;  
+                justify-content: center;   
+                position: absolute; 
+                font-size: 2.2rem;   
+                background-color: rgba(245, 245, 245, 0.966);
+                transform: translateY(-10px) translateX(6px);
+                color: black;
+            }
+        }
+    }
+
+        & > a {
+            text-decoration: none;
+        & > .project2{
+            display: flex;
+            flex-direction: row;
+            height: 10vh;
+            justify-content: right;
+            
+
+        & > button{
+            display: flex;
+            height: 3rem;
+            width: 10rem;
+            align-items: center;
+            gap: 2px;
+            background-color: transparent;
+            border: 1px solid wheat;
+            border-radius: 10px;
+            padding-left: 20px;
+            font-weight: 700;
+        }
+
+        & > .fa-square-up-right{
+            display: flex;
+            height: 2.5rem; 
+            width: 2.5rem;  
+            align-items: center;  
+            justify-content: center;   
+            position: absolute; 
+            font-size: 2.2rem;   
+            transform: translateY(-10px) translateX(6px);
+            color: white;
+        }
+
+    }
+    }
+    }
+}
+}
+
+.section6{
+    display: flex;
+    height: 65vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    & > .holder{
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        height: 55vh;
+        border: 2px solid white;
+        padding: 15px;
+        border-radius: 20px;
+        align-items: center;
+
+        & > .left{
+            display: flex;
+            width: 70%;
+            height: 70vh;
+            justify-content: center;
+            align-items: center;
+
+            & > img{
+                height: 45vh;
+                width: 100%;
+                border-radius: 20px;
+            }
+        }
+        & > .right{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 40%;
+            gap: 1.5rem;
+
+            & > p{
+                text-align: center;
+                padding: 10px;
+                color: white;
+            }
+            & > a{
+                text-decoration: none;
+
+            & > .project1{
+                display: flex;
+                flex-direction: row;
+                height: 10vh;
+                justify-content: right;
+                
+            & > button{
+                display: flex;
+                height: 3rem;
+                width: 13.2rem;
+                align-items: center;
+                gap: 2px;
+                background-color: transparent;
+                border: 1px solid white;
+                border-radius: 10px;
+                padding-left: 15px;
+                font-weight: 700;
+            }
+                
+            & > .fa-github{
+                display: flex;
+                border-radius: 50%;
+                border: 1px solid white;
+                height: 2.2rem; 
+                width: 2.2rem;  
+                align-items: center;  
+                justify-content: center;   
+                position: absolute; 
+                font-size: 2.2rem;   
+                background-color: rgba(245, 245, 245, 0.966);
+                transform: translateY(-10px) translateX(6px);
+                color: black;
+            }
+        }
+    }
+
+        & > a {
+            text-decoration: none;
+        & > .project2{
+            display: flex;
+            flex-direction: row;
+            height: 10vh;
+            justify-content: right;
+            
+
+        & > button{
+            display: flex;
+            height: 3rem;
+            width: 10rem;
+            align-items: center;
+            gap: 2px;
+            background-color: transparent;
+            border: 1px solid wheat;
+            border-radius: 10px;
+            padding-left: 20px;
+            font-weight: 700;
+        }
+
+        & > .fa-square-up-right{
+            display: flex;
+            height: 2.5rem; 
+            width: 2.5rem;  
+            align-items: center;  
+            justify-content: center;   
+            position: absolute; 
+            font-size: 2.2rem;   
+            transform: translateY(-10px) translateX(6px);
+            color: white;
+        }
+
+    }
+    }
+    }
+}
+}
